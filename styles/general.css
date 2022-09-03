@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.25s ease;
+}
+
+body {
+    padding: 75px 20px 0 100px;
+    margin: 0;
+    background-color:rgb(224, 223, 223);
+    overflow-x: hidden;
+}

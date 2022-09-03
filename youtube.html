@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="imagexicon" href="icons/youtube-play.png">
+        <title>Youtube.com</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <!--<link rel="stylesheet" href="styles/header.css">-->
+        <!--<link rel="stylesheet" href="styles/navigation.css">-->
+        <link rel="stylesheet" href="styles/main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="left-side-bar">
+                <img src="icons/hamburger-menu.svg">
+                <a href="">
+                    <img src="icons/youtube-logo.svg">
+                </a>
+            </div>
+            <div class="middle-bar">
+                <input class="search-bar" type="search" placeholder="Search">
+                <button class="search-btn">
+                    <img src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="search-btn1">
+                    <img src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-side-bar">
+                <div class="create">
+                    <img src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="menu">
+                    <img src="icons/youtube-apps.svg">
+                    <div class="tooltip">Menu</div>
+                </div>
+                <div class="notifications">
+                    <img src="icons/notifications.svg">
+                    <div class="tooltip">Notifications</div>
+                    <div class="count">3</div>
+                </div>
+                <div class="main-pic">
+                    <img src="channel-pictures/My_Profile.jpg">
+                    <div class="tooltip" id="tooltip">Me</div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="side-bar">
+                <img src="icons/home.svg">
+                <div class="general">Home</div>
+            </div>
+            <div class="side-bar">
+                <img src="icons/explore.svg">
+                <div class="general">Explore</div>
+            </div>
+            <div class="side-bar">
+                <img src="icons/subscriptions.svg">
+                <div class="general">Subscriptions</div>
+            </div>
+            <div class="side-bar">
+                <img src="icons/originals.svg">
+                <div class="general">originals</div>
+            </div>
+            <div class="side-bar">
+                <img src="icons/youtube-music.svg">
+                <div class="general">Youtube Music</div>
+            </div>
+            <div class="side-bar">
+                <img src="icons/library.svg">
+                <div class="general">Library</div>
+            </div>
+        </nav>
+
+        <!--<div class="right">
+
+        </div>-->
+        <main>
+            <section class="grid-container">
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/thumbnail-1.webp">
+                        <div class="time-stamp">14:20</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channel-1.jpeg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Talking Tech and AI with Google CEO Sundar Pichai!
+                            </p>
+                            <p class="second-txt">
+                                Marques Brownlee
+                            </p>
+                            <p class="second-txt main">
+                                3.4M views · 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/thumbnail-2.webp">
+                        <div class="time-stamp">8:22</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channel-2.jpeg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Try Not To Laugh Challenge #9
+                            </p>
+                            <p class="second-txt">
+                                Markiplier
+                            </p>
+                            <p class="second-txt main">
+                                19M views · 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/thumbnail-3.webp">
+                        <div class="time-stamp">9:13</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channel-3.jpeg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Crazy Tik Toks Taken Moments Before DISASTER
+                            </p>
+                            <p class="second-txt">
+                                SSSniperWolf
+                            </p>
+                            <p class="second-txt main">
+                                12M views · 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/thumbnail-4.webp">
+                        <div class="time-stamp">22:09</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channel-4.jpeg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                            </p>
+                            <p class="second-txt">
+                                Veritasium
+                            </p>
+                            <p class="second-txt main">
+                                18M views · 4 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/thumbnail-5.webp">
+                        <div class="time-stamp">11:17</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channel-5.jpeg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Kadane's Algorithm to Maximum Sum Subarray Problem
+                            </p>
+                            <p class="second-txt">
+                                CS Dojo
+                            </p>
+                            <p class="second-txt main">
+                                519K views · 5 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/thumbnail-6.webp">
+                        <div class="time-stamp">19:59</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channel-6.jpeg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Anything You Can Fit In The Circle I&apos;ll Pay For
+
+                            </p>
+                            <p class="second-txt">
+                                MrBeast
+                            </p>
+                            <p class="second-txt main">
+                                141M views · 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/reactportfolio.png">
+                        <div class="time-stamp">3:14:58</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/channels4_profile.jpg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                React Portfolio Website Tutorial - Portfolio Website Using React - React JS Portfolio Website
+                            </p>
+                            <p class="second-txt">
+                                Cryptical Coder
+                            </p>
+                            <p class="second-txt main">
+                                10K views · 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/webprojects.png">
+                        <div class="time-stamp">6:38:49</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/sahand.jpg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                HTML CSS JavaScript projects
+                            </p>
+                            <p class="second-txt">
+                                Code With Sahand
+                            </p>
+                            <p class="second-txt main">
+                                28K views · 1 month ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/calculator.png">
+                        <div class="time-stamp">6:38:49</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/simplified.jpg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Build A Calculator With JavaScript Tutorial
+                            </p>
+                            <p class="second-txt">
+                                Web Dev Simplified
+                            </p>
+                            <p class="second-txt main">
+                                1.1M views · 2 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/code.png">
+                        <div class="time-stamp">10:51</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/pirate.jpg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                How I would learn to code (if I could start over)
+                            </p>
+                            <p class="second-txt">
+                                PIRATE KING
+                            </p>
+                            <p class="second-txt main">
+                                150K views · 1 month ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/software.png">
+                        <div class="time-stamp">8:56</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/pan.jpg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                I lost my job... (as a software engineer intern)
+                            </p>
+                            <p class="second-txt">
+                                Frying Pan
+                            </p>
+                            <p class="second-txt main">
+                                150K views · 1 month ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="first-flex-box">
+                        <img src="thumbnails/self.png">
+                        <div class="time-stamp">8:56</div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="profile-pic">
+                            <img src="channel-pictures/kenny.jpg">
+                        </div>
+                        <div class="vid-preview">
+                            <p class="first-txt">
+                                Self Taught Programmers... Listen Up.
+                            </p>
+                            <p class="second-txt">
+                                Kenny Gunderman
+                            </p>
+                            <p class="second-txt main">
+                                1.4M views · 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </body>
+</html>
